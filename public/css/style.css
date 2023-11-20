@@ -1,0 +1,76 @@
+*,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.container-a {
+  width: 100%;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* //////// custom class ////////// */
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+/* /////////////////// */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+main video {
+  width: 100%;
+  max-width: 1200px;
+  aspect-ratio: 1920/1080;
+  background-color: #0c0c0c;
+}
+.video-screen.full-screen {
+  aspect-ratio: inherit;
+  width: 100vw;
+  height: 100vh;
+}
+
+.btns {
+  padding-top: 20px;
+}
+
+.btn-a {
+  padding: 6px 12px;
+  background: #007bff;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+#ipInput{
+  margin-bottom: 16px;
+}

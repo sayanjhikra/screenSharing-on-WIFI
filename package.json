@@ -1,0 +1,27 @@
+{
+  "name": "webstreaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.11",
+    "axios": "^1.5.1",
+    "domexception": "^4.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "media-stream-library": "^13.0.0",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.1",
+    "wrtc": "^0.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

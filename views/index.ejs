@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Screen</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="axios.js" defer></script>
+
+</head>
+
+<body>
+
+    <main>
+        <input type="text" value="" id="ipInput" class="d-none">
+
+        <video class="video-screen" id="localVideo" autoplay muted>
+        </video>
+
+        <div class="btns">
+            <button class="btn btn-primary " id="share-button" type="button">
+                share screen
+            </button>
+            <button class="btn btn-primary " id="watch-button" type="button">
+                watch stream
+            </button>
+        </div>
+
+    </main>
+    <script src="index.js" defer></script>
+</body>
+
+</html>
